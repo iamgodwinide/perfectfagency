@@ -31,17 +31,22 @@ nav img{
 }
 
 .container h1{
-    color: #F15243;
-    font-size: 4em;
+    color: #fff;
+    font-size: 3.5em;
+    text-transform: uppercase;
 }
 
 .container h1 span{
-    color: #fff;
+    color: #F15243;
 }
 
 
 .container p{
     font-size: 1.3em;
+    color: #F15243;
+}
+
+.container span{
     color: #fff;
 }
 
