@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(1, 7, 14);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: fixed;
+    top: 0;
+}
+
+nav img{
+    width: 4em;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    color: #F15243;
+    font-size: 4em;
+}
+
+.container h1 span{
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .container h1{
+        font-size: 2.5em;
+    }
+}
